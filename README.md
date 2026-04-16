@@ -6,10 +6,11 @@ A curated set of **Cursor IDE rules** and best practices for senior-level ML eng
 
 This repository contains comprehensive `.cursorrules` files that define coding standards, architectural patterns, and production-grade practices for machine learning and data science projects. These rules enforce reproducibility, clarity, and best practices across your entire codebase.
 
-Two rule sets are provided:
+Three rule sets are provided:
 
 - **`.cursor-ml-rules.md`** — Comprehensive ML/Senior Data Science guidelines
 - **`.cursor-DS-rules.md`** — Alternative DS-focused configuration
+- **`.cursor-ai-engg-rule.md`** — Senior AI Engineer rules emphasizing production agents and systems
 
 ## 🎯 Purpose
 
@@ -195,6 +196,7 @@ project/
 |------|-------------|
 | `.cursor-ml-rules.md` | Main comprehensive ML/DS rules file |
 | `.cursor-DS-rules.md` | Alternative DS-focused rules file |
+| `.cursor-ai-engg-rule.md` | Senior AI Engineer rules focusing on production agents and ML systems |
 | `README.md` | This file |
 | `skills/` | Future: custom Cursor skills and extensions |
 
