@@ -2,7 +2,7 @@
 
 A curated set of **Cursor IDE rules** and best practices for senior-level ML engineering and data science work in Python.
 
-## 📋 Overview
+## Overview
 
 This repository contains comprehensive `.cursorrules` files that define coding standards, architectural patterns, and production-grade practices for machine learning and data science projects. These rules enforce reproducibility, clarity, and best practices across your entire codebase.
 
@@ -12,7 +12,7 @@ Three rule sets are provided:
 - **`.cursor-DS-rules.md`** — Alternative DS-focused configuration
 - **`.cursor-ai-engg-rule.md`** — Senior AI Engineer rules emphasizing production agents and systems
 
-## 🎯 Purpose
+## Purpose
 
 These rules establish:
 - **Code Quality**: Linting, formatting, type checking, and testing standards
@@ -22,7 +22,7 @@ These rules establish:
 - **Reproducibility**: Seed management, dependency pinning, artifact versioning
 - **Production Safety**: Anti-patterns prevention, security, data governance
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Copy the rules file to your project:**
    ```bash
@@ -36,7 +36,7 @@ These rules establish:
 
 3. **Start coding** — Cursor will apply these rules to all conversations and suggestions
 
-## 📚 Key Sections
+## Key Sections
 
 ### 1. **Identity & Mindset**
 Senior ML Engineer perspective: production-grade, reproducible, well-reasoned Python with clarity over cleverness.
@@ -160,7 +160,7 @@ project/
 - Squash experiment commits before merging
 - Tag releases: `v1.2.0-model`
 
-## 💡 Usage Tips
+## Usage Tips
 
 ### For New Projects
 1. Create your project structure following the template above
@@ -180,7 +180,7 @@ project/
 - Reference specific sections in prompts for focused guidance
 - Example prompt: *"Implement a feature engineering pipeline following the sklearn-compatible transforms approach from section ── FEATURE ENGINEERING"*
 
-## 🔒 Key Principles
+## Key Principles
 
 1. **Production-Grade Code**: No shortcuts, always production-ready
 2. **Reproducibility First**: Seeds, versions, configs, artifacts tracked
@@ -190,7 +190,7 @@ project/
 6. **Security by Default**: PII anonymized, credentials isolated, data governance
 7. **Performance & Scale**: Profile before optimizing, use appropriate tools for data size
 
-## 📂 Files in This Repository
+## Files in This Repository
 
 | File | Description |
 |------|-------------|
@@ -200,14 +200,14 @@ project/
 | `README.md` | This file |
 | `skills/` | Future: custom Cursor skills and extensions |
 
-## 🎓 Who This Is For
+## Who This Is For
 
 - **Senior ML Engineers** building production models
 - **Data Scientists** wanting reproducible, scalable workflows
 - **Teams** needing consistent standards across projects
 - **Anyone** adopting Cursor IDE for Python/ML work
 
-## 📖 Learning Resources
+## Learning Resources
 
 The rules reference several tools and frameworks:
 - **Testing**: pytest, hypothesis
@@ -220,7 +220,7 @@ The rules reference several tools and frameworks:
 - **Configuration**: Hydra, YAML/TOML
 - **Versioning**: DVC, git
 
-## ⚙️ Configuration & Customization
+## Configuration & Customization
 
 These rules are intentionally opinionated but can be customized:
 
@@ -229,7 +229,7 @@ These rules are intentionally opinionated but can be customized:
 3. **Add sections**: Insert company-specific standards or domain rules
 4. **Remove sections**: If a practice doesn't fit your workflow
 
-## 🤝 Contributing
+## Contributing
 
 To improve these rules:
 1. Test changes in a real project
@@ -237,7 +237,7 @@ To improve these rules:
 3. Keep rules concise and actionable
 4. Maintain the opinionated, production-first mindset
 
-## 📝 License
+## License
 
 These rules are open for use and modification. Consider licensing your project separately.
 
